@@ -12,7 +12,7 @@ import { API_PATHS } from '../../utils/apiPaths';
 import QuestionCard from './../../components/cards/QuestionCard';
 import AiResponsePreview from './components/AiResponsePrewiew';
 import Drawer from './../../components/Drawer';
-import SkeletonLoader from '../../components/Loader/SkeletonLoader';
+import SkeletonLoader from '../../components/loader/SkeletonLoader';
 
 
 const InterviewPrep = () => {
