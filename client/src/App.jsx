@@ -1,6 +1,6 @@
 import { Toaster } from "react-hot-toast";
 import { Routes, Route } from "react-router-dom";
-import Dashboard from './pages/Home/Dashboard';
+import Dashboard from './pages/home/Dashboard';
 import LandingPage from './pages/LandingPage';
 import Login from './pages/Auth/Login';
 import Signup from './pages/Auth/Signup';
