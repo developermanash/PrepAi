@@ -3,8 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import Dashboard from './pages/home/Dashboard';
 import LandingPage from './pages/LandingPage';
 import Login from './pages/Auth/Login';
-import Signup from './pages/Auth/Signup';
-import InterviewPrep from './pages/interviewPrep/InterviewPrep';
+import Signup from "./pages/Auth/Signup";
+import InterviewPrep from "./pages/interviewPrep/InterviewPrep";
 
 function App() {
 
