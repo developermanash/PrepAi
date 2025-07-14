@@ -7,7 +7,7 @@ import Signup from './Auth/Signup';
 import Modal from './../components/Modal';
 import Login from './Auth/Login';
 import { UserContext } from '../context/userContext';
-import ProfileInfoCard from './../components/Cards/ProfileInfoCard';
+import ProfileInfoCard from './../components/cards/ProfileInfoCard';
 
 
 const LandingPage = () => {
