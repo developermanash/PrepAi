@@ -1,0 +1,34 @@
+# Node
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+out/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor files
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Dependency locks (only ignore if you're not committing them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
