@@ -1,9 +1,9 @@
 import React, { useContext, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
-import Input from './../../components/inputs/Input';
+import Input from '../../components/inputs/Input';
 import ProfilePhotoSelector from '../../components/inputs/ProfilePhotoSelector';
 import { validateEmail } from '../../utils/helper';
-import { UserContext } from './../../context/userContext';
+import { UserContext } from '../../context/userContext';
 import { API_PATHS } from '../../utils/apiPaths';
 import axiosInstance from '../../utils/axiosInstance';
 import uploadImage from '../../utils/uploadImage';
