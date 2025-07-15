@@ -38,6 +38,9 @@ app.use(
   generateConceptExplanationQuestions
 );
 
+//Serve uploads folder
+app.use("/uploads", express.static(path.join(__dirname, "uploads"), {}));
+
 if(process.env.NODE_ENV === "production"){
   app.use(express.static(path.join(__dirname, "../client/dist")));
   app.get("*", (req, res) => {
@@ -48,8 +51,6 @@ if(process.env.NODE_ENV === "production"){
 // Error handler should be the last middleware
 app.use(errorHandler);
 
-//Serve uploads folder
-app.use("/uploads", express.static(path.join(__dirname, "uploads"), {}));
 
 //start server
 const PORT = process.env.PORT || 5000;
